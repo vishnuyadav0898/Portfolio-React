@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+body{
+    font-family: "Patrick Hand", serif;
+    color: rgba(236, 232, 232, 0.912);
+}
