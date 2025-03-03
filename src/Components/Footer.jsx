@@ -23,7 +23,7 @@ function Footer() {
 
   return (
     <>
-      <footer className="fixed bottom-0  left-0 2xl:left-[40%] w-full rounded-t-4xl 2xl:w-[30%] 2xl:rounded-4xl border-2 flex justify-around items-center h-20 bg-gradient-to-r from-[#3b1d4f] via-purple-800 to-[#3b1d4f]">
+      <footer className="fixed bottom-0  left-0 2xl:left-[35%] w-full rounded-t-4xl 2xl:w-[30%] 2xl:rounded-4xl border-2 flex justify-around items-center h-20 bg-gradient-to-r from-[#3b1d4f] via-purple-800 to-[#3b1d4f]">
         <button onClick={scrollToProjects} className="text-white text-xl">
           Projects
         </button>
