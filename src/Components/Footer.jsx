@@ -35,7 +35,7 @@ function Footer() {
       {/* Small Image Popup */}
       {showSmallImage && !showFullImage && (
         <div
-          className="fixed bottom-20  left-0 flex items-center w-full justify-center 2xl:left-[40%] 2xl:w-[30%] 2xl:rounded-4xl transition-all duration-500 transform scale-90 opacity-0 animate-fade-in"
+          className="fixed bottom-20  left-0 flex items-center w-full justify-center 2xl:left-[35%] 2xl:w-[30%] 2xl:rounded-4xl transition-all duration-500 transform scale-90 opacity-0 animate-fade-in"
         >
           <img
             src="/images/resume.png"
