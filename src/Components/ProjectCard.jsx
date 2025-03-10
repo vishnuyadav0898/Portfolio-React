@@ -9,8 +9,8 @@ function ProjectCard({
 }) {
   return (
     <div
-      className={`flex flex-col lg:flex-row  w-[90vw] 2xl:w-[65vw] ${
-        isImageLeft ? "lg:flex-row-reverse" : ""
+      className={`flex flex-col md:flex-row  w-full  2xl:w-[65vw] ${
+        isImageLeft ? "md:flex-row-reverse" : ""
       } items-center lg:items-start gap-10`}
     >
         <div className="w-full lg:w-1/2 lg:ml-8">
@@ -25,7 +25,7 @@ function ProjectCard({
           <img
             src="/images/flowerIcon.png"
             alt="Flower Icon"
-            className="w-10 h-10"
+            className="w-10 h-10 "
           />
           <img
             src="/images/flowerIcon.png"
@@ -35,12 +35,12 @@ function ProjectCard({
         </div>
       </div>
       {/* Image Section */}
-      <div className="relative  bg-purple-950 rounded-lg overflow-hidden group w-[25rem] 2xl:w-[30rem] lg:w-1/2 h-[20rem] lg:h-[25rem]">
+      <div className="relative  bg-purple-950 rounded-2xl overflow-hidden group w-[25rem] xl:h-[35vw] xl:w-[40vw]   2xl:w-[25vw]  h-[20rem]   2xl:h-[20vw]">
         {/* Image with Hover Blur */}
         <img
           src={projectimage}
           alt={projectname}
-          className="w-full h-full p-5 object-cover transition-transform duration-300 ease-in-out   2xl:blur-none 2xl:group-hover:blur-sm blur-xs lg:group-hover:scale-105"
+          className="w-full h-full p-1 object-cover transition-transform duration-300 ease-out   xl:blur-none xl:group-hover:blur-sm blur-xs xl:group-hover:scale-105 rounded-2xl"
         />
 
         {/* Button Overlay */}

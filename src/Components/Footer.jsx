@@ -58,7 +58,7 @@ function Footer() {
           <img
             src="/images/resume.png"
             alt="Resume"
-            className="max-w-full max-h-full transition-transform duration-500 transform scale-90 hover:scale-100"
+            className="max-w-full max-h-full transition-transform duration-500 transform scale-90 hover:scale-10"
           />
           <button
             onClick={handleCloseClick}
